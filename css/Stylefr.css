@@ -1,0 +1,50 @@
+html{
+    background-color:gainsboro;
+}
+body{
+    width: 945px;
+    margin: 0 auto;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url(/Img/imgmedved.jpg);
+    padding-top: 260px;
+    
+}
+
+div{
+    background-color: rgba(255, 255, 255, .40);
+    height: 55px;
+   
+    
+   
+}
+
+h1{
+    color: white;
+    padding: 5px 0 0 50px;
+    text-shadow:  rgba(0, 0, 0, .6) 2px 2px 2px;
+}
+
+h2, p{
+    font-style: italic;
+    
+}
+h2{ 
+    padding-top: 20px;    
+    border-bottom: 2px solid lightgrey;
+    margin: 20px 30px -30px 30px;
+}
+
+p{
+    margin: 50px 30px 0px 50px;
+    font-size: 20px;
+    
+    text-align: justify;
+    
+}
+p::first-letter{
+
+  font-family: "Comic Sans MS";
+  font-size: 30px;
+}
+
